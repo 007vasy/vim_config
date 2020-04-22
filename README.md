@@ -4,8 +4,8 @@
 ### Steps:
 	* `sudo apt install vim`
 	* `sudo apt install python3`
-	* `git clone git@github.com:007vasy/vim_config.git`
-	* `cd vim_config && cp ./.vimrc ~/.vimrc`
+	* `git clone https://github.com/007vasy/vim_config.git`
+	* `cp vim_config/.vimrc ~/.vimrc`
 	* `git clone git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 	* `:PluginInstall` in vim
 
