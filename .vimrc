@@ -7,7 +7,11 @@ set nu
 set encoding=utf-8
 let python_highlight_all=1
 syntax on
-
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
+set clipboard=unnamedplus
 
 call vundle#begin()
 
